@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        body {
+            background-color: #68be4a;
+        }
+        .data input {
+            background-color:#f2f2f2;
+            border: none;
+            width: 175px;
+            height: 30px;
+            color:lightgrey;
+        }
+        .Login{
+            background-color:white;
+            width: 175px;
+            padding: 25px;
+            margin: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin-right: -50%;
+            transform: translate(-50%, -50%)
+            
+        }
+        input[type=submit] {
+    padding:5px 15px; 
+    background:#00b241; 
+    border:0 none;
+    cursor:pointer;
+    width: 175px;
+    color: white;
+    }
+     .text{
+     color:lightgrey;
+     font-size: 10px;
+    }
+    a{
+        color:#68be4a;
+        font-size: 10px;
+        background-color: transparent;
+        text-decoration: none;
+    }
+    .below-text{
+        display: flex;
+    }
+
+    </style>
+<head>
+</head>
+<body>
+    <div class="Login">
+        <form>
+            <div class = "data">
+            <input type="text" name="fname" placeholder="   username"><br><br>
+            <input type="text" name="lname" placeholder="   password">
+            </div>
+            <br>
+            <input type="submit" value="LOGIN">
+          </form>
+           <div class="below-text">
+            
+           <p class="text">Not registered? <a href="google.com">Create an account</a></p>
+           </div>
+          </div>
+</body>
+</html>

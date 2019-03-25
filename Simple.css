@@ -1,0 +1,46 @@
+.Heading{
+    border-radius: 5px;
+  background: #73AD21;
+  padding: 20px; 
+  width: 1500px;
+}
+.MainTitle {
+    font-size: 50px;
+    padding-bottom: 5px;
+  }
+
+ 
+  
+ul{
+    font-size: 30px;
+    list-style-type: none;
+    
+}
+
+li:hover{
+background-color: black;
+color: white;
+cursor: pointer;
+}
+
+.Main{
+    border-radius: 25px;
+  background:lightgrey;
+  padding: 20px; 
+  height: 50px;
+}
+
+
+dd{
+    display: flex;
+}
+
+.Text{
+ width: 900px;
+}
+
+.side-bar{
+    width: 200px;
+    height: 300px;
+    background:blue;
+}

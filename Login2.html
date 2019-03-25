@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        
+        body {
+            background-color:white;
+        }
+        .data input {
+            background-color:#f2f2f2;
+            border: none;
+            width: 175px;
+            height: 30px;
+            color:lightgrey;
+        }
+        .Login{
+            background-color:#273458;
+            width: auto;
+            padding: 25px;
+            margin: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin-right: -50%;
+            transform: translate(-50%, -50%)
+            
+        }
+        input[type=submit] {
+             padding:5px 15px; 
+             background:#00b241; 
+             border:0 none;
+             cursor:pointer;
+             width: 350px;
+             color: white;
+             height: 30px;
+            }
+     .text{
+     color:lightgrey;
+     font-size: 10px;
+    }
+    .a1{
+        color:#18704f;
+        font-size: 10px;
+        background-color: transparent;
+        text-decoration: none;
+    }
+    .middle-text{
+        display: flex;
+    }
+    .data {
+        display: flex;
+    }
+    .password{
+        padding-left: 5px;
+      
+    }
+    .top-text{
+     text-align: center;
+     font-size: 10px;
+     color:white;
+    }
+
+    .below-text{
+        text-align: center;
+    }
+
+    .a2{
+        color: lightblue;
+        text-decoration: none;
+    }
+    .email{
+        background-color:#f2f2f2;
+        border: none;
+        width: 355px;
+        height: 30px;
+        color:lightgrey;
+        }
+    .facebook{
+        background-color:#3b5998;
+        color: white;
+            padding: 7px 12.5px;
+            text-align: center;
+            text-decoration: none;
+            width: 110px;
+            height: 30px;
+            font-size: 10px;
+    }
+    .Twitter{
+        background-color:#00aced;
+        color: white;
+            padding: 7px 12.5px;
+            text-align: center;
+            text-decorat0ion: none;
+            width:115px;
+            height: 30px;
+            font-size: 10px;
+            text-decoration: none;
+    }
+    .Social-Media{
+     display:Flex;
+    }
+   .facebookimg{
+       width:40px;
+   }
+    .twitterimg{
+        width:40px;
+    }
+    </style>
+<head>
+</head>
+<body>
+    <div class="Login">
+        <div class = "Social-Media">
+        <img class="facebookimg" src="Facebook.jpg">
+        <a class = "facebook" href="facebook.com">Connect with Facebook</a>
+        <img class = "twitterimg" src="Twitter.jpg">
+        <a class = "Twitter" href="twitter.com">Connect with Twitter</a>
+        </div>
+        <p class = "top-text">Or sign up with</p>
+        <form>
+            <div class = "data">
+              <div class = "username">
+                <input type="text" name="fname" placeholder="   First Name">
+              </div>
+              <div class = "password">
+                <input type="text" name="lname" placeholder="   Last Name">
+              </div>
+              </div>
+                <br>
+                <input class = "email" type= "email" placeholder="  your@email.com" name="Email">
+                <br>
+                <br>
+                <input class = "email" type= "text" placeholder="  Password" name="Password">
+             <div class="middle-text">
+                <p class="text">By creating a acccount, you agree to our <a class = "a1" href="google.com">Terms and Conditions</a></p>
+             </div>
+                <input type="submit" value="Create account">
+        </form>
+             <div class="below-text">
+                <p class="text">Template by <a class = "a2" href="google.com">w3Layouts</a></p>
+            </div>
+    </div>
+</body>
+</html>
